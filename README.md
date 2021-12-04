@@ -13,7 +13,7 @@
  Use local storage so cart items aren't lost on refreshes
  
 # Requirement 2
-todo link github
+https://github.com/baumgab1-matc/Brent-Baumgart-p2
 
 #  Requirement 3
  All requirements met, see code
