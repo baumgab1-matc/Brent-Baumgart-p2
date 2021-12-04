@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Brent Baumgart | Project 2</title>
+</head>
+<body>
+
+    <header id="main-header">
+        <h1 id="header-title">Milwaukee Strings</h1>
+
+        <div id="header-cart">
+            <h3 id="edit-cart"><a href="" onclick="return editCart()">Edit Cart</a></h3>
+            <h3>In Cart <span id="in-cart">(0)</span></h3>
+            <a href="checkout.html" id="checkout-link">Checkout</a>
+        </div>
+
+    </header>
+
+    <main>
+
+         <!-- Modal for editing cart (hidden by default) -->
+         <div class="modal" id="modal-dialog">
+            <div class="modal-content">
+              <section>
+                <h2>In Cart</h2>
+              </section>
+
+              <section>
+                  <p id="customer-order-text"></p>
+                  <!-- todo here -->
+                  <ul id="customer-order-list"></ul> 
+              </section>
+
+              <footer>
+                <button onclick="closeModal()" id="okay-button">Okay</button>
+                <button onclick="emptyCart()" id="clear-button">Clear</button>
+              </footer>
+            </div>
+          </div>
+          <div id="modal-backdrop"></div>
+
+
+      <!-- this is were products will be loaded -->
+      <section id="product-list-container">
+        
+      </section>
+
+    </main>
+
+    <footer></footer>
+
+
+   <script src="js/scripts.js" charset="utf-8"></script>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Requirement 1
+
+ - Project description:  
+	Create an eCommerce site for a mock guitar shop
+
+- Feature list (user requirements)
+ Can add items to cart
+ Can remove items from cart
+ Can "purchase" items from cart
+
+- List of technical tasks for each feature (software requirements)
+ The cart will be programmed as a modal
+ Use local storage so cart items aren't lost on refreshes
+ 
+# Requirement 2
+todo link github
+
+#  Requirement 3
+ All requirements met, see code
